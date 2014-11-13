@@ -1,0 +1,20 @@
+{
+  "name": "npm-run-test",
+  "version": "1.0.0",
+  "description": "npm-run-test ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run index",
+		"index":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i5ting/npm-run-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/npm-run-test/issues"
+  },
+  "homepage": "https://github.com/i5ting/npm-run-test"
+}
