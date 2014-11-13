@@ -34,6 +34,18 @@ where <command> is one of:
 
 上面我们说的`start`和`test`命令就是这样玩的。
 
+```
+  "scripts": {
+		"start":"npm publish ."
+  },
+```
+
+只需要重写里面的具体命令就可以了，然后执行
+
+	npm start
+
+这样就可以发布npm模块了。
+
 ## 自定义的命令
 
 从上面的命令列表里我们可以看到，没有`index`命令，那么我们怎么自定义呢？
