@@ -40,10 +40,11 @@ where <command> is one of:
 
 先定义`package.json`里的命令
 
+```
   "scripts": {
-    "test": "npm run index",
 		"index":"node index.js"
   },
+```
 
 然后我创建index.js，并在里面加一句打印
 
@@ -76,10 +77,12 @@ node index.js
 
 先定义`package.json`里的命令
 
+```
   "scripts": {
     "test": "npm run index",
 		"index":"node index.js"
   },
+```
 
 这里执行
 
